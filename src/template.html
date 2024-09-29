@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+</head>
+<body>
+    <!-- Custom Element for AppBar -->
+    <app-bar></app-bar>
+
+    <main>
+        <!-- Custom Element for Form to Add New Note -->
+        <note-form></note-form>
+
+        <!-- Notes List Section -->
+        <section class="notes-list">
+            <h2>My Notes</h2>
+            <div id="notesGrid" class="grid-container"></div>
+        </section>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading" hidden>Loading...</div>
+    </main>
+</body>
+</html>
